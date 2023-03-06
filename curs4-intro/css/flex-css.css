@@ -1,0 +1,66 @@
+.uni {
+  line-height: 1.4;  
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    float: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px #ddd;
+    background-color: #fff;
+}
+
+.ju-start {
+    justify-content: flex-start;
+}
+
+.ju-end {
+    justify-content: flex-end;
+}
+
+.ju-center {
+    justify-content: center;
+}
+
+.al-start {
+    align-items: flex-start;
+}
+
+.al-end {
+    align-items: flex-end;
+}
+
+.al-center {
+    align-items: center;
+}
+
+.fill {
+    flex: 1 1 0;
+}
+
+.gap {
+    grid-gap: 6px;
+}
+
+.gap-small {
+    grid-gap: 2px;
+}
+
+.gap-big {
+    grid-gap: 10px;
+}

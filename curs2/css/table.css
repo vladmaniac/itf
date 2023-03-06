@@ -1,0 +1,8 @@
+.myTable {
+    border: solid 2px red ;
+}
+
+th {
+    text-align: center;
+    border: solid 1px greenyellow; 
+}
