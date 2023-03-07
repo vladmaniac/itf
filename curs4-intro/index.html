@@ -4,9 +4,11 @@
         <meta charset="utf-8">
         <!-- Notice that we introduced a
             new meta tag, which we did not use before -->
+        <!-- Very important for SEO -->
         <meta name="description"
             content="Using what we learned with forms and flex">
         <link rel="stylesheet" type="text/css" href="css/flex-css.css">
+        <link rel="stylesheet" type="text/css" href="css/labels.css">
         <title>
             Welcome to our flex-form demo!
         </title>
@@ -21,35 +23,94 @@
         </section>
         <section class="form-area">
             <div id="form-content" class="flex">
-                <form action="submitData" method="post" class="uni flex col gap-big">
-                    <div class="flex row gap-big">
-                        <label class="flex ju-start">
-                            Name:
-                        </label>
-                        <input name="name" type="text" />
-                    </div>
-                    <label>
-                        E-mail:
-                    </label>
-                    <input name="eMail" type="email" />
-                    <label>
-                        Date:
-                    </label>
-                    <input name="date" type="date" />
-                    <label>
-                        Phone number:
-                    </label>
-                    <input name="phone" type="number" />
-                    <label>
-                        Message:
-                    </label>
-                    <textarea name="message" rows="4" cols="50">
-                        Please insert your message here
-                    </textarea>
-                    <div class="flex ju-center">
-                        <button onclick="submitForm()">Submit</button>
-                    </div>
-                </form>
+                <div class=""flex col gap-big>
+                    <form action="submitData" method="post" class="uni flex col gap-big card">
+                        <div class="flex row gap-big">
+                            <label class="flex ju-start label-space">
+                                Name:
+                            </label>
+                            <input name="name" type="text" />
+                        </div>
+                        
+                        <div class="flex row gap-big">
+                            <label class="flex ju-start label-space">
+                                E-mail:
+                            </label>
+                            <input name="eMail" type="email" />
+                        </div>
+                        
+                        <div class="flex row gap-big">
+                            <label class="flex ju-start label-space">
+                                Date:
+                            </label>
+                            <input name="date" type="date" />
+                        </div>
+                        
+                        <div class="flex row gap-big">
+                            <label class="flex ju-start label-space">
+                                Phone number:
+                            </label>
+                            <input name="phone" type="number" />
+                        </div>
+                        
+                        <div class="flex row gap-big">
+                            <label class="flex ju-start label-space">
+                                Message:
+                            </label>
+                            <textarea name="message" rows="4" cols="50">
+                                Please insert your message here
+                            </textarea>
+                        </div>
+                        
+                        <div class="flex ju-center">
+                            <button onclick="submitForm()">Submit</button>
+                        </div>
+                    </form>
+    
+                    <div id="form-content" class="flex">
+                        <form action="submitData" method="post" class="uni flex col gap-big card">
+                            <div class="flex row gap-big">
+                                <label class="flex ju-start label-space">
+                                    Bank account name:
+                                </label>
+                                <input name="name" type="text" />
+                            </div>
+                            
+                            <div class="flex row gap-big">
+                                <label class="flex ju-start label-space">
+                                    E-mail:
+                                </label>
+                                <input name="eMail" type="email" />
+                            </div>
+                            
+                            <div class="flex row gap-big">
+                                <label class="flex ju-start label-space">
+                                    Date:
+                                </label>
+                                <input name="date" type="date" />
+                            </div>
+                            
+                            <div class="flex row gap-big">
+                                <label class="flex ju-start label-space">
+                                    Bank account number:
+                                </label>
+                                <input name="phone" type="number" />
+                            </div>
+                            
+                            <div class="flex row gap-big">
+                                <label class="flex ju-start label-space">
+                                    Message:
+                                </label>
+                                <textarea name="message" rows="4" cols="50">
+                                    Please insert your message here
+                                </textarea>
+                            </div>
+                            
+                            <div class="flex ju-center">
+                                <button onclick="submitForm()">Accept</button>
+                            </div>
+                        </form>
+                </div>
             </div>
         </section>
         <footer>

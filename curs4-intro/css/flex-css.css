@@ -17,8 +17,8 @@
 .card {
     display: flex;
     float: none;
-    margin: 0;
-    padding: 0;
+    margin: 25px;
+    padding: 12px;
     border: 1px solid #bbb;
     border-radius: 2px;
     box-shadow: 1px 1px 2px #ddd;
